@@ -6,7 +6,21 @@
 
 
 {% block content %}
-hello
+<button class="home">Home</button>
+
+<div class="img"></div>
+<br>
+
+<form enctype="multipart/form-data", action="/add">
+    <label class="add_file" for="file">&#128190;</label>
+    <input class="file", id="file", name="file", type="file", required >
+    
+    </label>
+    <br>
+    <input name="text" type="text", required>
+    <br>
+    <input type="submit">
+</form>
 
 {% endblock content %}
 

@@ -1,3 +1,26 @@
 body {
     background-color: bisque;
 }
+.img {
+    border-radius: 25px;
+    border-color: black;
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-image: url("https://i03.fotocdn.net/s123/76511e5d20d6fc33/public_pin_l/2813715027.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-color: aquamarine;
+}
+.home {
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 6px;
+}
+.file {
+    display: none;
+}
+.add_file {
+    font-size: 40px;
+}
