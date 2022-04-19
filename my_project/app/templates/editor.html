@@ -11,7 +11,9 @@
 <div class="img"></div>
 <br>
 
-<form enctype="multipart/form-data", action="/add">
+<form enctype="multipart/form-data", action="/add/", method="post">
+    {% csrf_token %}
+    
     <label class="add_file" for="file">&#128190;</label>
     <input class="file", id="file", name="file", type="file", required >
     
