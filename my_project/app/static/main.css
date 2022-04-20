@@ -1,3 +1,32 @@
 body {
-    background-color: lawngreen;
+    background-color: #1bc7d8;
+    width: 320px;
+}
+.img {
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.main {
+    background-color: #885ef2;
+    margin-bottom: 10px;
+    width: 310;
+    height: 400px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.txt {
+    color: #232426;
+    text-align: center;
+}
+.but {
+    background-color: #ecf0f9;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
 }

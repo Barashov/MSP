@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color: #1bc7d8;
 }
 .img {
     border-radius: 25px;
@@ -10,17 +10,24 @@ body {
     background-image: url("https://i03.fotocdn.net/s123/76511e5d20d6fc33/public_pin_l/2813715027.jpg");
     background-position: center center;
     background-size: cover;
-    background-color: aquamarine;
+    background-color: #ecf0f9;
 }
 .home {
     margin-bottom: 10px;
     border: 1px solid;
     border-radius: 10px;
     padding: 6px;
+    background-color: #ecf0f9;
 }
 .file {
     display: none;
 }
 .add_file {
     font-size: 40px;
+}
+.send {
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 7px;
+    border: 1px solid;
 }

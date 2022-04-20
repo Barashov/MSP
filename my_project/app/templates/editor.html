@@ -6,7 +6,7 @@
 
 
 {% block content %}
-<button class="home">Home</button>
+<button onclick="document.location.href='/'" class="home">Home</button>
 
 <div class="img"></div>
 <br>
@@ -21,7 +21,7 @@
     <br>
     <input name="text" type="text", required>
     <br>
-    <input type="submit">
+    <input class="send" type="submit">
 </form>
 
 {% endblock content %}

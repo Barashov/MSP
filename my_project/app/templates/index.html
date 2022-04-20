@@ -1,6 +1,17 @@
 {% extends 'main.html' %}
-
+{% load static %}
+{% block head %}<link rel="stylesheet" href="{% static 'main.css' %}">{% endblock head %}
 {% block content %}
-hello world
+
+<button class="but" onclick="document.location.href='editor/'">Добавить</button>
+{% for el in object %}
+<div class="main">
+    <div class="img" style="background-image: url({{el.photo.url}});"></div>
+    <h3 class="txt">{{el.text}}</h3>
+</div>
+
+
+
+{% endfor %}
 
 {% endblock content %}
